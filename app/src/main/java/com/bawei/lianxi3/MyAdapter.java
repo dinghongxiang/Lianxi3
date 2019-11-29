@@ -56,8 +56,8 @@ public class MyAdapter extends BaseAdapter {
          horlder.textView1.setText(list.get(i).des);
          horlder.textView2.setText(list.get(i).tipt);
          horlder.textView3.setText(list.get(i).zs);
-
         return view;
+
     }
 
     class ViewHorlder{
